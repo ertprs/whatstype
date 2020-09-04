@@ -1,0 +1,33 @@
+{
+  "name": "whatsType",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --ignore-watch node_modules src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "ts-node-dev": "^1.0.0-pre.51"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^5.2.0",
+    "@open-wa/wa-automate": "^1.9.96",
+    "@types/cors": "^2.8.6",
+    "@types/html-pdf": "^2.2.0",
+    "@types/multer": "^1.4.3",
+    "@types/simple-oauth2": "^4.1.0",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "html-pdf": "^2.2.0",
+    "multer": "^1.4.2",
+    "puppeteer": "^5.2.1",
+    "simple-oauth2": "^4.1.0",
+    "sulla": "^2.3.14",
+    "sulla-hotfix": "^1.8.42",
+    "typescript": "^3.9.6"
+  }
+}

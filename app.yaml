@@ -1,0 +1,5 @@
+runtime: nodejs12
+
+instance_class: F4
+env_variables:
+  GCLOUD_STORAGE_BUCKET: qrcodesfolder
